@@ -19,14 +19,11 @@ string name;
   cout<<"It is nice to meet you " << name << ". I am C++, remember me?";
   cout<<"\n";
      sleep_for(nanoseconds(10));
-     sleep_until(system_clock::now() + seconds(1));
+     sleep_until(system_clock::now() + seconds(2));
 
 
 
-  cout<<"\n";
-     sleep_for(nanoseconds(10));
-     sleep_until(system_clock::now() + seconds(3));
-
-  cout<< "Of course you do.  It is so good to see you again," << name;
+  cout<< "Of course you do.  It is so good to see you again, " << name << ". Let's play!";
+    cout<<"\n";
   return 0;
 }
